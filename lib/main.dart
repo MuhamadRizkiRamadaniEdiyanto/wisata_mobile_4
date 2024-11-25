@@ -6,7 +6,7 @@ import 'package:project_travel/screen/landing_page.dart';
 import 'package:project_travel/splash_screen.dart';
 // import 'package:project_travel/splash_screen.dart';
 
-void main(){
+void main() {
   runApp(TravelApp());
 }
 
@@ -17,7 +17,7 @@ class TravelApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: SplashScreen(),
     );
   }
 }
